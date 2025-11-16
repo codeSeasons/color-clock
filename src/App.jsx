@@ -22,6 +22,7 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           Update Time: {count}
         </button>
+        {/* Display formatted current date and time */}
         <p>
           {format(new Date(), "PPpp")}
         </p>
